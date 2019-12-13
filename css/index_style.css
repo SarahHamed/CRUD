@@ -1,0 +1,64 @@
+*
+{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h4
+{
+    font-weight: 600;
+}
+
+p
+{
+  color: #787878;
+}
+
+.m-40
+{
+    width: 40%;
+    margin: auto;
+}
+
+.m-60
+{
+    width: 60%;
+}
+
+section
+{
+    background-color: #f5efef;
+}
+
+.addProduct
+{
+    background-color: #f5efef;
+}
+.products
+{background-color: white;}
+
+.itemProduct
+{
+    position: relative;
+}
+
+.sale
+{
+    width:40px;
+    height: 34px;
+    position: absolute;
+    padding-top: 5px;
+    right:50;
+    top:45;
+    background-color: darkorange;
+    color: #fff;       
+}
+
+@media only screen and (max-width: 600px) {
+  .sale {
+      width: 60px;
+      height: 40px;
+      padding-top: 8px;
+    right:100;
+    top:45;
+  }
+}
